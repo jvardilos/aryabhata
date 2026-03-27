@@ -1,12 +1,20 @@
 # Aryabhata is my collection of AI Training materials I learned about
 
-## Create deps folder
+## Run in dev
 ``` bash
 python -m venv deps
 ```
 
-## To activate
-
 ``` bash
 source deps/bin/activate
+```
+
+## Run in Container
+
+``` bash
+docker build -t thingy .
+```
+
+``` bash
+docker run --name run1 thingy
 ```

@@ -1,6 +1,9 @@
 import anthropic
 
 
+def main290():
+    print("nobody blink")
+
 def main():
     client = anthropic.Anthropic()
 
@@ -239,4 +242,4 @@ def stream_response(prompt: str):
 
 
 if __name__ == "__main__":
-    print(compare_personas("Do you think Bitcoin will go up or down?"))
+    main290()
